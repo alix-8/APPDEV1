@@ -6,7 +6,7 @@ const userData = {
   bio: "BSIS 3 Student",
   skills: ["React", "Python", "Java", "JavaScript", "HTML", "CSS"],
   isOnline: true,
-  lastUpdated: "2 hours ago",
+  lastUpdated: "1 minute ago",
 };
 
 //<UserProfileCard user={userData} />;
@@ -21,6 +21,10 @@ function UserProfileCard({ user }) {
 
   function handleReset() {
     setMessageCount(0);
+  }
+
+  function handleFavorited() {
+    setIsFavorited(!isFavorited);
   }
 
   return (
@@ -42,6 +46,12 @@ function UserProfileCard({ user }) {
         {userData.isOnline ? <span>🟢 Online</span> : <span>⚪ Offline</span>}
         <button onClick={handleSendMessage}>Send Message</button>
         <button onClick={handleReset}>Reset</button>
+        <br />
+        {userData.isOnline && (
+          <button onClick={handleFavorited} style={{ marginTop: "8px" }}>
+            {isFavorited ? "☆ Favorite" : "★ Favorited"}
+          </button>
+        )}
       </div>
       <p className="footer"> Card last updated: {userData.lastUpdated} </p>
     </>
