@@ -18,11 +18,11 @@ function ProductCard({ product, onAddToCart }) {
         marginBottom: "12px",
       }}
     >
-      <h3 style={{ color: product.isFruit ? "magenta" : "darkgreen" }}>
-        {product.title}
-      </h3>
+      <h3>{product.title}</h3>
       <p> {product.popular && "⭐ Popular"}</p>
-      <p>Price: ${product.price.toFixed(2)}</p>
+      <p style={{ color: product.isFruit ? "magenta" : "darkgreen" }}>
+        Price: ${product.price.toFixed(2)}
+      </p>
       <br />
       <button onClick={onAddToCart}>Add to Cart</button>
     </div>
@@ -36,6 +36,12 @@ export default function ShopApp() {
     setCartStatus(cartStatus + 1);
   }
 
+  function handleRemoveFromCart() {
+    if (cartStatus > 0) {
+      setCartStatus(cartStatus - 1);
+    }
+  }
+
   return (
     <div className="shop">
       <h1>Mini Fruit & Veg Stand</h1>
@@ -44,6 +50,11 @@ export default function ShopApp() {
           ? "Cart is empty"
           : `You have ${cartStatus} items in your cart`}
       </p>
+      {cartStatus > 0 && (
+        <button style={{ marginBottom: 20 }} onClick={handleRemoveFromCart}>
+          Remove one
+        </button>
+      )}
       <div className="product-list">
         {products.map((product) => (
           <ProductCard
