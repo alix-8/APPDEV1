@@ -1,0 +1,3 @@
+1. Analyze the @src\App.css@src\components\tracks\SongList.css styling and apply simple clean blue-ish theme. I want it to look like a mobile playlist design that doesn't look plain and boring. Don't add new files, just new styling.
+
+2. Make the image/cover sit on the left side, and the infos beside it. Make the display like a stacked row
