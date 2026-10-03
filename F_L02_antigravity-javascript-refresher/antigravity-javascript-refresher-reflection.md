@@ -47,3 +47,13 @@ __PROMPT:__ <br/>
 
 __REFLECTION:__ <br/>
 In this part I have learned that you can make the AI explain to you how the code works. Pina-explain ko sa part na 'to kung bakit na-ooverride ng bagong attributes yung mga declared sa loob ng object.
+
+### 05_arrays.js
+__PROMPT:__ <br/>
+ Go inside 05_arrays.js and explain to me each function there. Follow this format:
+  - [function]: [what it does]
+  Make the explanation simple and understandable for begginers.
+
+__REFLECTION:__ <br/>
+Dito, tinanong ko yung AI na i-explain sa akin yung functions na pang-alter ng arrays. Yung mga AI na pwedeng maka-read ng file ay sobrang helpful lalo na kun gnag-aaral kasi mismong yung codes mo ang magiging example nya habang nag-eexplain.
+
