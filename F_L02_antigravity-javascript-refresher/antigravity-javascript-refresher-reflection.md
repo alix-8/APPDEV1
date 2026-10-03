@@ -110,3 +110,11 @@ In 10_let_const.js, explain the differences between:
 
 __REFLECTION:__ <br/>
 From what I've learned sa 09_tricky_parts, ti-nry ko nang ipa-table sa kanya yung eplanation, and it's much better.
+
+### 11_arrow_functions.js
+__PROMPT:__ <br/>
+In 10_let_const.js, explain to me what is the difference between the two functions.
+  Put it in table.
+
+__REFLECTION:__ <br/>
+From what I've learned sa 09_tricky_parts, ti-nry ko nang ipa-table sa kanya yung eplanation, and it's much better.
