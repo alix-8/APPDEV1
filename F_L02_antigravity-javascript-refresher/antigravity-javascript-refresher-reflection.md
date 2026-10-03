@@ -27,3 +27,23 @@ Now, let's go to the 02_variables.js. Replace the values of the declared variabl
 
 __REFLECTION:__ <br/>
 Merong part dito na nag-hallucinate yung AI. Mahalaga na alam natin yung basics ng code para kapag mali yung nagawa ng AI is ma-prevent natin sya, lalo na kung wala naman connection o di related sa task na pinapagawa natin.
+
+### 03_functions.js
+__PROMPT:__ <br/>
+I have creates 3 functions in 03_functions.js. Those are three different types of declaring a function.
+  Identify which type is each one of them. Copy this format in your explanation.
+  - [function name]: [function/declaration type] [what it does]
+  
+  Keep your explanation short, at least 2 sentences, and simple. I'm a beginner trying to study.
+
+__REFLECTION:__ <br/>
+I have learned that you can use Antigravity for explanation, di lang sa paggawa ng AI. In this part pina-explain ko lang yung laman ng code and differences ng functions.
+
+### 04_objects.js
+__PROMPT:__ <br/>
+ In 04_objects.js, I have declared an object and declared new items/attributes below.
+  Explain what will happen if it runs. What will it produce the first declared attributes inside the object or the ones outside the scope? Explain it simply
+  and make it short (understandable by a beginner)
+
+__REFLECTION:__ <br/>
+In 
