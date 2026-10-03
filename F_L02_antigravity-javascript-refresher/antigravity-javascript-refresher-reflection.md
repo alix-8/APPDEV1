@@ -88,3 +88,13 @@ In 08_essential_features.js, explain to me how each concept works.
 
 __REFLECTION:__ <br/>
 Dito, patuloy ko nang ginagamit ang paglalagay ng format sa prompts. Mas maayos kong naiintindihan ang explanations nya kasi sa preferred format ko pinalagay yung sasabihin  nya.
+
+### 09_tricky_parts.js
+__PROMPT:__ <br/>
+In 09_tricky_parts.js, explain the tricky parts.
+  The concepts are divided by this comment: // ================
+  Explain and compare each concept in this format:
+  - [concept] [explanation]
+
+__REFLECTION:__ <br/>
+Dito medyo magulo yung naging visualization ng explanation. Next time, I'll try to tell the AI to put the explanation in a table.
