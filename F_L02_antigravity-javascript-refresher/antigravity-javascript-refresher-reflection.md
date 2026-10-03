@@ -78,3 +78,13 @@ In 07_dom.html, explain how the button works.
 
 __REFLECTION:__ <br/>
 Sa part na ito, natutunan ko na pwede rin ma-evaluate or maaral ng Antigravity yung magiging behavior ng code sa browser. Pina-explain ko dito yung ginagawa ng html while following a format. 
+
+### 08_essential_features.js
+__PROMPT:__ <br/>
+In 08_essential_features.js, explain to me how each concept works.
+  Follow this format:
+  - [concept] [code output] [explanation]
+  Make the explanation simple.
+
+__REFLECTION:__ <br/>
+Dito, patuloy ko nang ginagamit ang paglalagay ng format sa prompts. Mas maayos kong naiintindihan ang explanations nya kasi sa preferred format ko pinalagay yung sasabihin  nya.
