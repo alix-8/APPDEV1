@@ -46,4 +46,4 @@ __PROMPT:__ <br/>
   and make it short (understandable by a beginner)
 
 __REFLECTION:__ <br/>
-In 
+In this part I have learned that you can make the AI explain to you how the code works. Pina-explain ko sa part na 'to kung bakit na-ooverride ng bagong attributes yung mga declared sa loob ng object.
