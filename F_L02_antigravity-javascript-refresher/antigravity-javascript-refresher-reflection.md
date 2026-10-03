@@ -98,3 +98,15 @@ In 09_tricky_parts.js, explain the tricky parts.
 
 __REFLECTION:__ <br/>
 Dito medyo magulo yung naging visualization ng explanation. Next time, I'll try to tell the AI to put the explanation in a table.
+
+### 10_let_const.js
+__PROMPT:__ <br/>
+In 10_let_const.js, explain the differences between:
+  - let
+  - const
+  - var
+  Put your explanation in table usin gthis format
+  [variable declaration] [explanation]
+
+__REFLECTION:__ <br/>
+From what I've learned sa 09_tricky_parts, ti-nry ko nang ipa-table sa kanya yung eplanation, and it's much better.
