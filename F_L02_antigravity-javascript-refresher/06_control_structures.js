@@ -1,9 +1,18 @@
 // Control Structures
 let score = 85;
-if (score >= 90) { console.log("A"); }
-else if (score >= 80) { console.log("B"); }
-else if (score >= 70) { console.log("C"); }
-else { console.log("F"); }
+if (score > 100 || score < 0) {
+  console.log("Invalid score");
+} else if (score >= 90) {
+  console.log("A");
+} else if (score >= 80) {
+  console.log("B");
+} else if (score >= 70) {
+  console.log("C");
+} else if (score >= 60) {
+  console.log("D");
+} else {
+  console.log("F");
+}
 
 // Looping
 for (let i = 1; i <= 5; i++) { console.log(i); }

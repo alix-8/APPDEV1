@@ -57,3 +57,14 @@ __PROMPT:__ <br/>
 __REFLECTION:__ <br/>
 Dito, tinanong ko yung AI na i-explain sa akin yung functions na pang-alter ng arrays. Yung mga AI na pwedeng maka-read ng file ay sobrang helpful lalo na kun gnag-aaral kasi mismong yung codes mo ang magiging example nya habang nag-eexplain.
 
+### 06_control_structures.js
+__PROMPT:__ <br/>
+In 06_control_structures.js, there is an logical error in control structures (grade checker).
+  Find it:
+  - Explain what causes it
+  - What should be fixed?
+
+  Do not edit until I approve the proposed changes. After this run the code again.
+
+__REFLECTION:__ <br/>
+You can use the Antigravity to debug codes and explain the errors. Pwede mo rin sya ipa-propose ng changes or fix. I've also learned na pwede at mahalagang ma-approve muna namin ang changes na gusto nyang gawin. 
