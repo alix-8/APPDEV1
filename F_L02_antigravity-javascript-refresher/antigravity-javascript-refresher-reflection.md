@@ -68,3 +68,13 @@ In 06_control_structures.js, there is an logical error in control structures (gr
 
 __REFLECTION:__ <br/>
 You can use the Antigravity to debug codes and explain the errors. Pwede mo rin sya ipa-propose ng changes or fix. I've also learned na pwede at mahalagang ma-approve muna namin ang changes na gusto nyang gawin. 
+
+### 07_dom.html
+__PROMPT:__ <br/>
+In 07_dom.html, explain how the button works.
+  Make the explanation numbered in order, and with simple terms for a beginner.
+  Follow this format:
+- [Event Sequence Number] [what happens]
+
+__REFLECTION:__ <br/>
+Sa part na ito, natutunan ko na pwede rin ma-evaluate or maaral ng Antigravity yung magiging behavior ng code sa browser. Pina-explain ko dito yung ginagawa ng html while following a format. 
