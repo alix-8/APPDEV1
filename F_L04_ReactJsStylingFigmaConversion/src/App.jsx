@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './index.css'
 import './App.css'
-import Login from './Login'
+import Login from './components/Login/Login.jsx'
 
 function App() {
   const [count, setCount] = useState(0)

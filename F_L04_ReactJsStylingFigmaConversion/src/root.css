@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+  /* Colors */
+  --blue: #5b86e5;
+  --light-blue: #adc2f0;
+  --white: #fff;
+  --black: #000;
+  --gray: #aaa;
+  --border-color: #c9c9c9;
+
+  /* Fonts */
+  --main-font: "Google Sans", sans-serif;
+  --mono-font: "Roboto Mono", monospace;
+  --small-text: 0.5625rem;
+  --field-text: 0.625rem;
+  --normal-text: 1rem;
+  --heading-text: 1.125rem;
+  --large-text: 2rem;
+
+  /* Screen and form sizes */
+  --card-width: 87vw;
+  --card-height: 81vh;
+  --card-min-height: 28.75rem;
+  --left-panel-width: 34%;
+  --form-width: 16.5rem;
+  --input-height: 2.1875rem;
+  --button-height: 1.75rem;
+  --social-button-width: 7rem;
+  --social-button-height: 1.625rem;
+
+  /* Spacing */
+  --space-small: 0.5rem;
+  --space-input: 0.625rem;
+  --space-medium: 0.75rem;
+  --space-normal: 1rem;
+  --space-large: 2rem;
+  --space-panel: 3.75rem;
+  --form-gap: 2.625rem;
+
+  /* Rounded corners */
+  --corner-small: 0.25rem;
+  --corner-medium: 0.5rem;
+  --corner-panel: 1.25rem;
+}
