@@ -1,0 +1,147 @@
+.card {
+  display: flex;
+  width: var(--card-width);
+  height: var(--card-height);
+  min-height: var(--card-min-height);
+  overflow: hidden;
+  background: var(--light-blue);
+}
+
+.left {
+  display: flex;
+  width: var(--left-panel-width);
+  flex-direction: column;
+  align-items: center;
+  padding: 12vh var(--space-panel) var(--space-large);
+}
+
+.tagline {
+  align-self: flex-start;
+  color: var(--white);
+  font-size: var(--large-text);
+  font-weight: 300;
+  line-height: 1.28;
+}
+
+.tagline strong {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.logo {
+  width: auto;
+  height: 30vh;
+  max-height: 304px;
+  max-width: 100%;
+  margin: auto 0;
+  filter: drop-shadow(0 20px 20px rgba(60, 80, 140, 0.35));
+}
+
+.link {
+  color: var(--white);
+  font-size: var(--small-text);
+  letter-spacing: 0.3px;
+}
+
+.right {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--corner-panel) 0 0 var(--corner-panel);
+  background: var(--white);
+}
+
+.form {
+  width: var(--form-width);
+  max-width: 76%;
+}
+
+.form h1 {
+  margin-bottom: var(--space-large);
+  text-align: center;
+  font-size: var(--heading-text);
+  letter-spacing: 0.3px;
+}
+
+.socialButtons {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-medium);
+}
+
+.socialButtons button {
+  width: var(--social-button-width);
+  height: var(--social-button-height);
+  border: 1px solid var(--light-blue);
+  border-radius: var(--corner-small);
+  background: var(--white);
+  color: #555;
+  font-family: inherit;
+  font-size: var(--small-text);
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: var(--space-small);
+  margin: var(--space-large) 0;
+  color: #888;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.divider::before,
+.divider::after {
+  height: 2px;
+  flex: 1;
+  background: #aaa;
+  content: '';
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  height: var(--input-height);
+  border: 0;
+  border-bottom: 1px solid var(--border-color);
+  outline: none;
+  font-family: inherit;
+  font-size: var(--field-text);
+  letter-spacing: 0.3px;
+}
+
+.form input::placeholder {
+  color: var(--gray);
+}
+
+.form input:focus {
+  border-bottom-color: var(--blue);
+}
+
+.submit {
+  width: 100%;
+  height: var(--button-height);
+  margin-top: var(--space-normal);
+  border: 0;
+  border-radius: var(--corner-small);
+  background: var(--blue);
+  color: var(--white);
+  font-family: inherit;
+  font-size: var(--field-text);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.loginText {
+  margin-top: var(--space-medium);
+  text-align: center;
+  font-size: var(--small-text);
+}
+
+.loginText a {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: none;
+}

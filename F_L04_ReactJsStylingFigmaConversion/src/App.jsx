@@ -1,16 +1,10 @@
-import { useState } from 'react'
 import './index.css'
 import './App.css'
 import Login from './components/Login/Login.jsx'
+import SignUp from './components/SignUp/SignUp.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <Login />
-    </>
-  )
+  return window.location.pathname === '/login' ? <Login /> : <SignUp />
 }
 
 export default App
