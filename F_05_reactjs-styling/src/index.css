@@ -1,0 +1,39 @@
+:root {
+  font-family: 'Istok Web', Arial, sans-serif;
+  color: #4c6878;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  /* Colors and spacing used around the page */
+  --card-background: #ffffff;
+  --main-text: #4c6878;
+  --light-text: #a9bbc5;
+  --heading-color: #7c9b9e;
+  --button-color: #4c6878;
+  --small-space: 8px;
+  --medium-space: 16px;
+  --large-space: 32px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}

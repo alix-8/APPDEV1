@@ -1,0 +1,162 @@
+.card {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--card-background);
+}
+
+.artwork {
+  min-height: 100%;
+  background-color: #89a7a8;
+  background-image: url('/left-background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 560px;
+  padding: 64px 80px;
+  margin: auto;
+}
+
+.heading {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  align-self: flex-start;
+  margin-bottom: 28px;
+}
+
+.heading h1 {
+  margin: 0;
+  color: var(--heading-color);
+  font-size: 42px;
+}
+
+.heading span {
+  color: var(--main-text);
+  font-size: 28px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 64px;
+}
+
+.tab {
+  min-width: 90px;
+  padding: 7px 10px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: #bcc9d0;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.selected {
+  color: #607f91;
+  border-bottom-color: #607f91;
+}
+
+.form {
+  display: grid;
+  gap: 34px;
+  width: 100%;
+}
+
+.form input {
+  width: 100%;
+  padding: 7px 2px 9px;
+  border: 0;
+  border-bottom: 2px solid #6d8b9b;
+  outline: none;
+  color: var(--main-text);
+  background: transparent;
+  font-size: 15px;
+}
+
+.form input::placeholder {
+  color: var(--light-text);
+}
+
+.form input:focus {
+  border-bottom-color: var(--heading-color);
+}
+
+.submit {
+  min-height: 48px;
+  border: 0;
+  background-color: var(--button-color);
+  color: white;
+  font-weight: 600;
+}
+
+.submit:hover {
+  background-color: #395565;
+}
+
+.divider {
+  margin-top: 30px;
+  color: var(--light-text);
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 20px;
+}
+
+.socials button {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  place-items: center;
+  border: 0;
+  background: transparent;
+}
+
+.socials img {
+  width: 24px;
+  height: 24px;
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+@media (max-width: 700px) {
+  .card {
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+  }
+
+  .artwork {
+    min-height: 35vh;
+  }
+
+  .content {
+    padding: 32px 24px;
+  }
+
+  .tabs {
+    margin-bottom: 40px;
+  }
+
+  .form {
+    gap: 25px;
+  }
+}
